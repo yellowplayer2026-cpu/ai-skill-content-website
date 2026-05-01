@@ -172,3 +172,10 @@ Notion / Jira / Trello / Asana 都可以。
 - **低客單（NT$299~699）**：Prompt＋模板包（會議／週報／專案）
 - **中客單（NT$3,980~9,800）**：2~4 週線上課（AI 會議副駕工作流）
 - **高客單（NT$30,000 起）**：企業顧問／導入（會議制度＋專案管理＋AI 自動化）
+
+## 短影音成品：AI 會議決策模板
+
+<video width="100%" controls>
+  <source src="{{ '/assets/videos/meeting-script.mp4' | relative_url }}" type="video/mp4">
+  您的瀏覽器不支援影片播放。
+</video>
