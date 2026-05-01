@@ -3,6 +3,8 @@ layout: post
 title: "AI 會議副駕：把會議紀錄變成可執行決策（職場效率極客版）"
 date: 2026-05-01 09:00:00 +0800
 categories: [ai, productivity, meeting]
+image: /assets/images/hero-ai-meeting.svg
+excerpt: "把 AI 會議摘要升級成可執行決策：Decision/Owner/Deadline 三欄，把會後推進變快。"
 ---
 
 ## 一、三層標題（同題不同目的）
@@ -13,6 +15,15 @@ categories: [ai, productivity, meeting]
 ---
 
 ## 二、短影音腳本（高資訊密度／一支片一核心）
+
+<div class="callout">
+<strong>先補一張圖，讓你一秒講清楚：</strong>會議 → 決策表 → 專案待辦 → 會議教練（優化議程）。
+</div>
+
+<div class="media">
+  <img src="{{ "/assets/diagrams/meeting-flow.svg" | relative_url }}" alt="會議到待辦的 3 步工作流" loading="lazy" />
+</div>
+
 > 目標：把「會議紀錄」升級成「可執行的決策與待辦」
 
 ### 0-3 秒｜黃金 Hook（Trust Hook）
@@ -32,6 +43,10 @@ categories: [ai, productivity, meeting]
 ### 13-23 秒｜解法 Step 1：先問對問題
 **旁白**：我只改一個指令：
 「請把會議內容輸出成：*決策（Decision）/ 依據（Reason）/ 負責人（Owner）/ 截止日（Deadline）/ 風險（Risk）*。」
+
+<div class="media">
+  <img src="{{ "/assets/diagrams/decision-table.svg" | relative_url }}" alt="AI 會議決策表輸出格式" loading="lazy" />
+</div>
 
 **[字幕動效]**關鍵欄位逐個跳出（Decision / Owner / Deadline）
 

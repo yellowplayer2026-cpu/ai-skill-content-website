@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Decision table template diagram">
+  <defs>
+    <style>
+      .t { font-family: -apple-system,BlinkMacSystemFont,"Noto Sans TC","Segoe UI",Roboto,Arial,sans-serif; }
+      .box { fill:#fff; stroke: rgba(15,23,42,0.14); stroke-width:2; }
+      .hdr { fill:#e8efff; }
+      .title { fill:#0f172a; font-weight:800; }
+      .muted { fill:#475569; }
+      .line { stroke: rgba(15,23,42,0.12); stroke-width:2; }
+      .chip { fill: rgba(255,122,24,0.14); stroke: rgba(255,122,24,0.36); }
+    </style>
+  </defs>
+
+  <rect x="36" y="36" width="1128" height="488" rx="18" class="box"/>
+  <text class="t title" x="72" y="92" font-size="22">AI 會議「決策表」輸出格式（可直接貼到 Notion/Jira/Trello）</text>
+  <text class="t muted" x="72" y="122" font-size="14">用這個格式，才能把摘要變成可執行的決策與待辦。</text>
+
+  <!-- table -->
+  <rect x="72" y="160" width="1056" height="320" rx="14" class="box"/>
+  <rect x="72" y="160" width="1056" height="54" rx="14" class="hdr"/>
+
+  <!-- columns -->
+  <line x1="320" y1="160" x2="320" y2="480" class="line"/>
+  <line x1="540" y1="160" x2="540" y2="480" class="line"/>
+  <line x1="720" y1="160" x2="720" y2="480" class="line"/>
+  <line x1="900" y1="160" x2="900" y2="480" class="line"/>
+
+  <!-- rows -->
+  <line x1="72" y1="270" x2="1128" y2="270" class="line"/>
+  <line x1="72" y1="376" x2="1128" y2="376" class="line"/>
+
+  <!-- header labels -->
+  <text class="t title" x="90" y="195" font-size="15">Decision（決策）</text>
+  <text class="t title" x="340" y="195" font-size="15">Reason（依據）</text>
+  <text class="t title" x="560" y="195" font-size="15">Owner（負責人）</text>
+  <text class="t title" x="740" y="195" font-size="15">Deadline（截止日）</text>
+  <text class="t title" x="920" y="195" font-size="15">Risk（風險）</text>
+
+  <!-- example chips -->
+  <rect x="90" y="228" width="210" height="26" rx="13" class="chip"/>
+  <text class="t" x="104" y="247" font-size="13" fill="#7c2d12">例：改成 45 分鐘</text>
+
+  <rect x="560" y="228" width="120" height="26" rx="13" class="chip"/>
+  <text class="t" x="574" y="247" font-size="13" fill="#7c2d12">例：小明</text>
+
+  <rect x="740" y="228" width="140" height="26" rx="13" class="chip"/>
+  <text class="t" x="754" y="247" font-size="13" fill="#7c2d12">例：5/10</text>
+
+  <text class="t muted" x="90" y="520" font-size="13">提示：Owner 只填 1 人（必要時另列協作者），Deadline 必填日期。</text>
+</svg>

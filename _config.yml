@@ -29,6 +29,9 @@ twitter_username: ""
 github_username: yellowplayer2026-cpu
 
 # Build settings
+lang: zh-TW
+show_excerpts: true
+
 theme: minima
 plugins:
   - jekyll-feed
