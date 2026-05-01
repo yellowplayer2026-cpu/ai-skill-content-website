@@ -1,13 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Decision table template diagram">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-label="Decision table template diagram (monochrome + blue)">
   <defs>
     <style>
       .t { font-family: -apple-system,BlinkMacSystemFont,"Noto Sans TC","Segoe UI",Roboto,Arial,sans-serif; }
-      .box { fill:#fff; stroke: rgba(15,23,42,0.14); stroke-width:2; }
-      .hdr { fill:#e8efff; }
-      .title { fill:#0f172a; font-weight:800; }
-      .muted { fill:#475569; }
-      .line { stroke: rgba(15,23,42,0.12); stroke-width:2; }
-      .chip { fill: rgba(255,122,24,0.14); stroke: rgba(255,122,24,0.36); }
+      .box { fill:#fff; stroke: rgba(17,24,39,0.14); stroke-width:2; }
+      .hdr { fill:#f3f4f6; }
+      .title { fill:#111827; font-weight:800; }
+      .muted { fill:#4b5563; }
+      .line { stroke: rgba(17,24,39,0.12); stroke-width:2; }
+      .chip { fill: rgba(31,78,216,0.08); stroke: rgba(31,78,216,0.32); }
+      .chipText { fill: #1f4ed8; font-weight: 700; }
     </style>
   </defs>
 
@@ -37,14 +38,14 @@
   <text class="t title" x="920" y="195" font-size="15">Risk（風險）</text>
 
   <!-- example chips -->
-  <rect x="90" y="228" width="210" height="26" rx="13" class="chip"/>
-  <text class="t" x="104" y="247" font-size="13" fill="#7c2d12">例：改成 45 分鐘</text>
+  <rect x="90" y="228" width="230" height="26" rx="13" class="chip"/>
+  <text class="t chipText" x="104" y="247" font-size="13">例：改成 45 分鐘</text>
 
   <rect x="560" y="228" width="120" height="26" rx="13" class="chip"/>
-  <text class="t" x="574" y="247" font-size="13" fill="#7c2d12">例：小明</text>
+  <text class="t chipText" x="574" y="247" font-size="13">例：小明</text>
 
   <rect x="740" y="228" width="140" height="26" rx="13" class="chip"/>
-  <text class="t" x="754" y="247" font-size="13" fill="#7c2d12">例：5/10</text>
+  <text class="t chipText" x="754" y="247" font-size="13">例：5/10</text>
 
   <text class="t muted" x="90" y="520" font-size="13">提示：Owner 只填 1 人（必要時另列協作者），Deadline 必填日期。</text>
 </svg>

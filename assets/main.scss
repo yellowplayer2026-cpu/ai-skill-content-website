@@ -5,14 +5,14 @@
 @import "minima";
 
 :root {
-  --brand: #2f6fed;
-  --brand-2: #ff7a18;
-  --bg-soft: #f6f8ff;
-  --text: #0f172a;
-  --muted: #475569;
+  /* McKinsey/BCG-ish: monochrome + one brand blue */
+  --brand: #1f4ed8;
+  --bg-soft: #f4f5f7;
+  --text: #111827;
+  --muted: #4b5563;
   --card: #ffffff;
-  --border: rgba(15, 23, 42, 0.10);
-  --shadow: 0 10px 30px rgba(2, 6, 23, 0.08);
+  --border: rgba(17, 24, 39, 0.12);
+  --shadow: 0 10px 30px rgba(17, 24, 39, 0.08);
 }
 
 body {
@@ -38,9 +38,9 @@ body {
   padding: 18px;
   border: 1px solid var(--border);
   border-radius: 16px;
-  background: radial-gradient(1200px 400px at 15% 20%, rgba(47,111,237,0.20), transparent 60%),
-              radial-gradient(900px 380px at 88% 0%, rgba(255,122,24,0.16), transparent 55%),
-              var(--card);
+  background: radial-gradient(1200px 420px at 12% 18%, rgba(31,78,216,0.14), transparent 60%),
+              linear-gradient(180deg, rgba(244,245,247,0.85) 0%, rgba(255,255,255,1) 65%);
+
   box-shadow: var(--shadow);
 }
 
@@ -109,8 +109,8 @@ body {
 .callout {
   margin: 14px 0;
   padding: 12px 14px;
-  background: rgba(47,111,237,0.08);
-  border: 1px solid rgba(47,111,237,0.18);
+  background: rgba(31,78,216,0.06);
+  border: 1px solid rgba(31,78,216,0.18);
   border-radius: 14px;
 }
 
@@ -154,7 +154,7 @@ body {
 .post-card .thumb {
   display: block;
   aspect-ratio: 16/9;
-  background: linear-gradient(135deg, rgba(47,111,237,0.22), rgba(255,122,24,0.14));
+  background: linear-gradient(135deg, rgba(31,78,216,0.14), rgba(17,24,39,0.06));
 }
 
 .post-card .thumb img {
